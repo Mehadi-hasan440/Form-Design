@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<title>Form</title>
+
+<form method="get" enctype="Created by md.mehadi hasan-cmt5th,roll:15117,boardroll:226289" action="">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Phone 
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>Gender:</legend>
+<p><label> <input type="radio" name="taxi" required value="car">
+Male
+</label></p>
+<p><label> <input type="radio" name="taxi" required value="van">
+  Female
+</label></p>
+
+</fieldset>
+
+<fieldset>
+<legend>Age:</legend>
+<p><label> <input type="checkbox" name="extras" value="teenage"> I'm a Teenager </label></p>
+<p><label> <input type="checkbox" name="extras" value="notteenage"> I'm not a Teenager </label></p>
+
+<p>
+<label>Other: I would like to mention my age
+<input type="number" name="age" required>
+</label> 
+</p>
+
+</fieldset>
+
+<p>
+<label>Why you want to contact with me?
+
+<p>
+<label>Reason
+<select id="reson" name="reson">
+<option value="" selected="selected">Select One</option>
+<option value="Personal problem" >Not commercial</option>
+<option value="sponsorship" >YouTube sponsor purpose</option>
+<option value="business" >Business purpose</option>
+<option value="education" >Educational purpose</option>
+<option value="simple" >Other</option>
+</select>
+</label> 
+</p>
+
+
+
+<p>
+<label>Message
+<textarea name="comments" maxlength="3000"></textarea>
+</label>
+</p>
+
+<p><button>Submit</button></p>
+
+</form>
